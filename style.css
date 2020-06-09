@@ -1,91 +1,118 @@
 
    
-
 body {
-background-color: rgba(0, 0, 0, 0.925);
-font-family: 'Times New Roman' Times, serif;
-font-size: 1.25vw;
-color: rgb(247, 227, 47);
-background-image: url(skyrim-background.jpeg);}
+    background-color: rgba(0, 0, 0, 0.925);
+    font-family: 'Times New Roman' Times, serif;
+    font-size: 1.25vw;
+    color: rgb(247, 227, 47);
+    background-image: url(skyrim-background.jpeg);
+}
 
 
 
        
 
 header {
-    margin: 0px auto;ma
+    margin: 0px auto;
     width: 95vw;
-    background-color: rgb(155, 10, 5, 0.5);
-    border: .2vw ridge rgb(247,227,47);}
+    background-color: rgba(77, 10, 8, 0.5);
+    border: .2vw ridge rgb(247,227,47);
+}
 header > img {
-width: 150px;
-margin-left: 10px;
-margin-top : 10px;
-float: left;
-    }
+    width: 150px;
+    margin-left: 10px;
+    margin-top : 10px;
+    float: left;
+}
     
 a{ 
-color: rgb(247, 227, 47);
-    }       
+    color: rgb(247, 227, 47);
+}       
             
         
 header > nav > ul > li {
-display: inline-block; 
-width: 1;
-border: 1px solid rgb(247, 227, 47);
-text-align: center;
-font-size: large;
-border-radius: 6px;
-padding: 10px;
-background-color: rgb(71, 42, 12);
-margin-top:10px;
-margin-right: 12vw;
-margin-bottom: 10px;}
+    display: inline-block; 
+    width: 1;
+    border: 1px solid rgb(247, 227, 47);
+    text-align: center;
+    font-size: large;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(71, 42, 12);
+    margin-top:10px;
+    margin-right: 12vw;
+    margin-bottom: 10px;
+}
 
 
 h1 {
-text-align: center;
-color: (247, 227, 47);}
+    text-align: center;
+    color: (247, 227, 47);
+}
 /* main */
 main {
-display: grid;
-grid-template-columns:auto, auto, auto;
-grid-template-rows: 19vw, 19vw, auto;
-align-items: end;
-align-content: end;
-margin-top: 30px;}
+    display: grid;
+    grid-template-columns:auto, auto, auto;
+    grid-template-rows: 19vw, 19vw, auto;
+    align-items: end;
+    align-content: end;
+    margin-top: 30px;
+    background-color: rgb(77, 10, 8, .5);
+}
 
 #main {
-grid-row-start: 1;
-grid-row-end: 4;
-height: 100vw;}
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 100vw;
+    background-color: rgba(77, 10, 8, 0.5);
+}
 #s1 {
-grid-column: 3;
-grid-row: 1;
-align-self: start;}
+    grid-column: 3;
+    grid-row: 1;
+    align-self: start;
+    background-color: rgba(77, 10, 8, 0.5);
+    margin: 20px;
+    width: 60vw;
+    border: 10px rgb(0, 0, 0);
+    height: 16vw;
+}
 #s1 > img {
-    width: auto;
+    width: 19vw;
     float: left;
-    margin: 20px;}     
+    margin: 20px;
+}     
 #s2 > img {
-    width: 20vw; 
-    border: .5vw gold;
+    width: 18vw; 
+    border: .5vw rgb(0, 0, 0);
     float: left;
-    margin: 20px}     
+    margin: 20px
+}     
 #s2 {
     grid-column: 3;
     grid-row: 2;
     align-self: start;
-    background-color: black;
+    background-color: rgba(77, 10, 8, 0.5);
     width: 60vw;
     border: 10px gold;
-    height: 16vw;}
+    height: 16vw;
+    margin-top: 60px;
+}
 #skyrim-header {
-    width: 29vw;
+    width: 35vw;
     border: .3vw solid #660d07;
-    margin: .8vw;}
+    margin: .8vw;
+}
     
-
+#s3 {
+    grid-column: 3;
+    grid-row: 3;
+    align-self: start;
+    background-color: rgba(77, 10, 8, 0.5);
+    margin: 20px;
+    width: 60vw;
+    border: 10px gold;
+    height: 16vw;
+}    
 
 
 
