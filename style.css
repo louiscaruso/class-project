@@ -1,0 +1,93 @@
+
+   
+
+    body {
+        background-color: rgba(0, 0, 0, 0.925);
+        font-family: 'Times New Roman' Times, serif;
+        font-size: 1.25vw;
+        color: rgb(247, 227, 47);
+        background-image: url(skyrim-background.jpeg);}
+       
+
+
+       
+        
+        header {
+            margin: 0px auto;ma
+            width: 95px;
+            background-color: rgb(155, 10, 5, 0.5);
+            border: .2vw ridge rgb(247,227,47);}
+        header > img {
+        width: 150px;
+        margin-left: 10px;
+        margin-top : 10px;
+        float: left;
+            }
+            
+     a{ 
+        color: rgb(247, 227, 47);
+     }       
+            
+            
+ header > nav > ul > li {
+    display: inline-block; 
+    width: 1;
+    border: 1px solid rgb(247, 227, 47);
+    text-align: center;
+    font-size: large;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(71, 42, 12);
+    margin-top:10px;
+    margin-right: 12vw;
+    margin-bottom: 10px;}
+
+
+h1 {
+    text-align: center;
+    color: (247, 227, 47);}
+/* main */
+main {
+    display: grid;
+    grid-template-columns:auto, auto, auto;
+    grid-template-rows: 19vw, 19vw, auto;
+    align-items: end;
+    align-content: end;
+    margin-top: 30px;}
+
+#main {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 100vw;}
+#s1 {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: start;}
+#s1 > img {
+    width: auto;
+    float: left;
+    margin: 20px;}     
+#s2 > img {
+    width: 20vw; 
+    border: .5vw gold;
+    float: left;
+    margin: 20px}     
+#s2 {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: start;
+    background-color: black;
+    width: 60vw;
+    border: 10px gold;
+    height: 16vw;}
+#skyrim-header {
+    width: 29vw;
+    border: .3vw solid #660d07;
+    margin: .8vw;}
+    
+
+
+
+
+
+/* footer */ 
