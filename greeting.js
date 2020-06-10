@@ -8,10 +8,6 @@ if (hourNow > 18) {
 } else if (hourNow > 0) {
     greeting = 'Good Morning!';
 } else {
-    greeting = 'Welcome!';
+    greeting = 'Welcome traveler!';
 }
-document.write('<h3>' + greeting + '</h3>');
-
-var username = prompt('Greetings Earthling, What is your name?');
-
-document.write('<h3>Hello ' + username + '</h3>');
+document.write('<h3>' + greeting + '</h3>')
